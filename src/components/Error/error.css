@@ -1,0 +1,56 @@
+.error .textprincipal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--tipografia100);
+    border: 8px solid var(--colorLetra);
+    border-radius: 25px;
+    padding: 45px;
+    margin: 100px 55px;
+    position: relative;
+    
+}
+.error .textprincipal h1{
+    font-size: 150px;
+    background: #FF4D71;
+    background: -webkit-linear-gradient(to right, #FF4D71 50%, #22EDFB 100%);
+    background: -moz-linear-gradient(to right, #FF4D71 50%, #22EDFB 100%);
+    background: linear-gradient(to right, #FF4D71 25%, #22EDFB 100%);
+    background-clip: 0; 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 20px;
+}
+.error h2{
+    font-size: 50px;
+    color: white;
+    margin: 20px
+}
+.error h3{
+    font-size: 25px;
+    color: var(--colorLetra);
+}
+.error button{
+    font-size: 17px;
+    color: white;
+    background-color:  var(--colorBoton);
+    border: 0;
+    margin: 5px;
+    padding: 15px 55px;
+    border-radius: 12px;
+}
+.error p{
+    background: #22EDFB;
+    background: -webkit-linear-gradient(to right, #22EDFB 0%, #FF4D71 100%);
+    background: -moz-linear-gradient(to right, #22EDFB 0%, #FF4D71 100%);
+    background: linear-gradient(to right, #22EDFB 0%, #FF4D71 100%);
+    background-clip: 0;  /*especifica si el fondo de un elemento, ya sea el color o la imagen, se extiende por debajo de su borde*/
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    font-size: 500px;
+    transform: rotate(15deg);
+    opacity: 0.3;
+    z-index: -1px;
+    top: -100px;
+}

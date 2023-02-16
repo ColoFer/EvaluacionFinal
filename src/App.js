@@ -1,5 +1,4 @@
 import {
-  Navbar,
   Home,
   Services,
   Projects,
@@ -15,7 +14,7 @@ import { Routes, Route } from "react-router-dom";
 const App = () => {
   return (
     <div className="App">
-      <Navbar />
+      {/*<Navbar />*/}
       <Routes>
         <Route path="/" element={<PageComplete />} />
         <Route path="/home" element={<Home />} />
