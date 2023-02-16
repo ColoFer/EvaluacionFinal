@@ -1,0 +1,30 @@
+.contact{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 5vh 0;
+    padding: 0 5vw;
+}
+.datosPersonales{
+    display: flex;
+    flex-direction: column;
+}
+.formulario .formularioUsuario{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    
+    width: 350px;
+    gap: 10px;
+}
+.formulario .formularioUsuario .inputContainer{
+    display: flex;
+    flex-direction: column;
+    height: 40px;
+   
+}
+.formulario .formularioUsuario .inputContainer input{
+    height: 30px;
+   
+    border-radius: 0.4rem;
+}

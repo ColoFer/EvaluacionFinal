@@ -1,0 +1,10 @@
+export { Navbar } from "./Navbar/index";
+export { Home } from "./Home/index";
+export { Services } from "./Services/index";
+export { Projects } from "./Projects/index";
+export { AboutMe } from "./AboutMe/index";
+export { Skills } from "./Skills/index";
+export { Contact } from "./Contact/index";
+export { Footer } from "./Footer/index";
+export { PageComplete } from "./PageComplete/index";
+export { Error } from "./Error/index";
