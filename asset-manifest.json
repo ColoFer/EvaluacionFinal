@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/EvaluacionFinal/static/css/main.de85324e.css",
-    "main.js": "/EvaluacionFinal/static/js/main.b7164714.js",
-    "static/media/bootstrap-icons.woff?": "/EvaluacionFinal/static/media/bootstrap-icons.6959d0d983ee318f8880.woff",
-    "static/media/bootstrap-icons.woff2?": "/EvaluacionFinal/static/media/bootstrap-icons.b2e5aab643c6f0fd2da6.woff2",
-    "static/media/pajaro.jpg": "/EvaluacionFinal/static/media/pajaro.fb36f17e0acfcb31320e.jpg",
-    "index.html": "/EvaluacionFinal/index.html",
-    "main.de85324e.css.map": "/EvaluacionFinal/static/css/main.de85324e.css.map",
-    "main.b7164714.js.map": "/EvaluacionFinal/static/js/main.b7164714.js.map"
+    "main.css": "/static/css/main.dac56963.css",
+    "main.js": "/static/js/main.9aba4f06.js",
+    "static/media/bootstrap-icons.woff?": "/static/media/bootstrap-icons.6959d0d983ee318f8880.woff",
+    "static/media/bootstrap-icons.woff2?": "/static/media/bootstrap-icons.b2e5aab643c6f0fd2da6.woff2",
+    "static/media/pajaro.jpg": "/static/media/pajaro.fb36f17e0acfcb31320e.jpg",
+    "index.html": "/index.html",
+    "main.dac56963.css.map": "/static/css/main.dac56963.css.map",
+    "main.9aba4f06.js.map": "/static/js/main.9aba4f06.js.map"
   },
   "entrypoints": [
-    "static/css/main.de85324e.css",
-    "static/js/main.b7164714.js"
+    "static/css/main.dac56963.css",
+    "static/js/main.9aba4f06.js"
   ]
 }
