@@ -9,7 +9,6 @@ const Error = () =>{
                 <h3>The Page You Are Looking For Does Not Exists.</h3>
                 <button>BACK TO HOME</button>
             </div>
-
         </div>
     );
 }

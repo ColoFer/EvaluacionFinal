@@ -40,17 +40,5 @@
     padding: 15px 55px;
     border-radius: 12px;
 }
-.error p{
-    background: #22EDFB;
-    background: -webkit-linear-gradient(to right, #22EDFB 0%, #FF4D71 100%);
-    background: -moz-linear-gradient(to right, #22EDFB 0%, #FF4D71 100%);
-    background: linear-gradient(to right, #22EDFB 0%, #FF4D71 100%);
-    background-clip: 0;  /*especifica si el fondo de un elemento, ya sea el color o la imagen, se extiende por debajo de su borde*/
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; 
-    font-size: 500px;
-    transform: rotate(15deg);
-    opacity: 0.3;
-    z-index: -1px;
-    top: -100px;
-}
+
+
