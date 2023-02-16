@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/EvaluacionFinal/static/css/main.de85324e.css",
+    "main.js": "/EvaluacionFinal/static/js/main.b7164714.js",
+    "static/media/bootstrap-icons.woff?": "/EvaluacionFinal/static/media/bootstrap-icons.6959d0d983ee318f8880.woff",
+    "static/media/bootstrap-icons.woff2?": "/EvaluacionFinal/static/media/bootstrap-icons.b2e5aab643c6f0fd2da6.woff2",
+    "static/media/pajaro.jpg": "/EvaluacionFinal/static/media/pajaro.fb36f17e0acfcb31320e.jpg",
+    "index.html": "/EvaluacionFinal/index.html",
+    "main.de85324e.css.map": "/EvaluacionFinal/static/css/main.de85324e.css.map",
+    "main.b7164714.js.map": "/EvaluacionFinal/static/js/main.b7164714.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.de85324e.css",
+    "static/js/main.b7164714.js"
+  ]
+}
