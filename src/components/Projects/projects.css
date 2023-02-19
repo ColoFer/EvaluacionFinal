@@ -1,0 +1,53 @@
+.projects{
+    margin: 20px 25px;
+    padding: 30px 30px;
+    position: relative;
+    top: -50px;
+}
+.projects .titulo span{
+    color:  var(--colorBoton);
+    position: relative;
+}
+.projects .titulo p{
+    position: relative;
+    top: -50px;
+    left: -580px;
+}
+.projects .titulo svg{
+    width: 50px;
+    height: 45px;
+}
+.projects .misproyectos img{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: -40px;
+    left: -20px;
+    margin: 20px;
+    padding: 10px;
+    width: 90%;
+}
+.projects button{
+    font-size: 17px;
+    background-color:  var(--colorBoton);
+    border: 0;
+    margin: 5px;
+    padding: 15px 15px;
+    border-radius: 12px;
+    
+}
+.projects button>a{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+@media (max-width: 768px){
+    .projects .titulo p{
+        top: -50px;
+        left: 65px;
+    }
+    .projects .titulo span{
+        top: 10px;
+        left: -250px;
+    }
+}

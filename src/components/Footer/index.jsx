@@ -6,10 +6,11 @@ import {AiOutlineInstagram, AiFillGithub,AiOutlineLinkedin, AiOutlineWhatsApp} f
 
 const Footer = () => {
     return (
-        <div className="Footer">
+        <>
+        <div className="footer">
             <div className="titulo">
                 <NavLink to="/">
-                    <h2>Portfolio.</h2>
+                    Portfolio.
                 </NavLink>
             </div>
             <div className="iconos">
@@ -35,11 +36,12 @@ const Footer = () => {
                     Contact
                 </NavLink>
             </nav>
-            <div className="line">
-                <p>hola</p>
             </div>
-            <p>@2023 | Desing </p>
-        </div>
+            <div className="line">
+                <p></p>
+            </div>
+            <p>@ 2023 | Design By Fernandez Maria Alexandra</p>
+        </>
     );
   }
   

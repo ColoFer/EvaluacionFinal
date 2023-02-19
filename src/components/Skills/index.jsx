@@ -1,13 +1,19 @@
+import React from "react";
+import "./skills.css";
+import myskills from "../../assets/skills.png";
+import {AiOutlineLine} from "react-icons/ai";
+
+
 const Skills = () => {
     return (
-      <div className="Skills">
-            <div>
-
+      <div className="skills">
+            <div className="lenguaje">
+              <img src={myskills} alt="" />
             </div>
-            <div>
-                <i className="bi bi-three-dots icon">Mis habilidades</i>
-                <h3>Lenguajes & Herramientas</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae harum molestiae sunt.</p>
+            <div className="habilidad">
+            <span><AiOutlineLine/><p>MIS HABILIDADES</p></span>
+                <h2>Lenguajes & Herramientas</h2>
+                <p className="text">Tengo conocimentos intermedios de ReactJS, SQL, Bootstrap, HTML, CSS y conociemientos necesarios de Node.js</p>
             </div>
       </div>
     );

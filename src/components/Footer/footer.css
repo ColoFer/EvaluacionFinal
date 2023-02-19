@@ -1,8 +1,60 @@
-.Footer .line{ 
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    margin: 10px 40px;
+}
+.footer .titulo {
+    font-weight: bold;
+    font-size: 50px;
+    background: #22EDFB;
+    background: -webkit-linear-gradient(to right, #22EDFB 0%, #FF4D71 100%);
+    background: -moz-linear-gradient(to right, #22EDFB 0%, #FF4D71 100%);
+    background: linear-gradient(to right, #22EDFB 0%, #FF4D71 100%);
+    background-clip: 0;  /*especifica si el fondo de un elemento, ya sea el color o la imagen, se extiende por debajo de su borde*/
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+}
+nav{
+    display: flex;
+    justify-content: center;
+}
+.menu > a {
+    font-size: 23px;
+    margin: 15px;
+    text-decoration: none;
+    cursor: pointer;
+    color: var(--colorLetra);
+    position: relative;
+}
+.footer .iconos svg{
+    color: var(--colorLetra);
+    height: 25px;
+    width: 25px;
+}
+.line{ 
     
     border-top: 1px solid #74809C;
     height: 2px;
     width: 90%;
     padding: 0;
-    margin: 20px auto 0 auto;
- }
+    margin: 0 auto 0 auto;
+}
+p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--colorLetra);
+}
+
+@media (max-width: 768px) {
+    .footer .menu {
+        display: none;
+    }
+
+    .footer .iconos {
+        display: flex;
+        gap: 10px;
+    }
+}

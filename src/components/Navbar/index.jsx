@@ -18,21 +18,21 @@ const Navbar = () => {
         <div className="navToggle" onClick={() => setOpen(!isOpen)}>
               <GiHamburgerMenu />
             </div>
-        <nav className={`navItem ${isOpen && "open"}`}>
+        <nav className={`navItem ${isOpen && "open"}`} >
           <NavLink to="/home">
             Home
           </NavLink>
           <NavLink to="/services">
-            Services
+            Servicios
           </NavLink>
           <NavLink to="/projects">
-            Projects
+            Proyectos
           </NavLink>
           <NavLink to="/aboutme">
-            AboutMe
+            Sobre Mi
           </NavLink>
           <NavLink to="/contact">
-            Contact
+            Contactos
           </NavLink>  
         </nav>
       </header>

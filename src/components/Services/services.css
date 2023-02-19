@@ -1,0 +1,110 @@
+.services{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 25px ;
+    padding: 30px ;
+    height: 400px;
+}
+.services .card{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.services .card svg{
+    width: 50px;
+    height: 30px;
+    padding: 5px;
+}
+.services .card .card1{
+    position: relative;
+    border: 2px solid var(--colorBoton);
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border-radius: 12px;
+    top: -100px;
+}
+
+.services .card .card2{
+    position: relative;
+    border: 2px solid var(--colorBoton);
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    top: -50px;
+    left: 20px;
+    border-radius: 12px;
+}
+.services .card .card3{
+    position: relative;
+    border: 2px solid var(--colorBoton);
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    top: 0px;
+    left: 40px;
+    border-radius: 12px;
+}
+.services .experiencia {
+    display: flex;
+    flex-direction: row;
+    align-items:center ;
+    position: relative;
+    top: -150px;
+    left: 0px;
+    width: 600px;
+}
+
+.services .experiencia .text {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    top: 100px;
+    left: -100px;
+}
+.services .experiencia .text h2{
+    color: var(--colorTitulo);
+    margin: 2px;
+}
+.services span{
+    color:  var(--colorBoton);   
+}
+.services .experiencia svg{
+    width: 50px;
+    height: 45px;
+}
+
+@media (max-width: 768px){
+    .services{
+        position: relative;
+        margin: 100px 0 100px 0 ;
+        padding: 50px;
+    }
+    .services .card{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .services .card .card1{
+        top:-20px
+    }
+    .services .card .card2{
+        top: -10px;
+        left: 0px;
+    }
+    .services .card .card3{
+        top:0px;
+        left: 0px;
+    }
+    .services .experiencia {
+        left: 50px;
+    }
+    .services .experiencia p{
+        top:-150px;
+    }
+    .services .experiencia .text{
+        top: 150px;
+    }
+}

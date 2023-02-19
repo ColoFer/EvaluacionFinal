@@ -1,31 +1,36 @@
 import emailjs from 'emailjs-com';
-import "./contact.css"
+import "./contact.css";
+import {FiPhone} from "react-icons/fi";
+import {AiOutlineMail, AiOutlineLine} from "react-icons/ai";
+import {CiLocationOn} from "react-icons/ci";
+import {motion} from "framer-motion";
 
 const Contact = () => {
     const handleSubmit = (e) => {
         e.preventDefault();
         emailjs.sendForm('service_9vzks7s', 'template_lxzduvf', e.target, 'sYpQj4MissMdZMwRO')
         .then((result) => {
-            console.log(result.text)
             alert("Mensaje Enviado");
         }, (error) => {
-            console.log(error.text);
+            alert("Error enviando mensaje");
         });
     }
     return (
-        <div className="contact">
+        <motion.div className="contact" initial={{opacity:0}} animate={{opacity:1}} exit={{opacity:0}}>
             <div className="datosPersonales">
-                <i className="bi bi-three-dots icon">Contactame</i>
-                <h3>Dejame un Mensaje</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae harum molestiae sunt.</p>
-                <i className="bi bi-telephone"> +54 9 261 667 3537</i>
-                <i className="bi bi-envelope-at"> fernandezmariaalexandra27@gmail.com</i>
-                <i className="bi bi-geo-alt"> Maipu, Mendoza, Argentina</i>
+                <span><AiOutlineLine/><p>CONTACTAME</p></span>
+                <h2>Dejame un Mensaje</h2>
+                <p className='text'>Contactame mediante este formulario para haceme una consulta, una propuesta, o posibles dudas que tengas.</p>
+                <p className='icon'><span><FiPhone/></span>+54 9 261 667 3537</p>
+                <p className='icon'><span><AiOutlineMail/></span>fernandezmariaalexandra27@gmail.com</p>
+                <p className='icon'><span><CiLocationOn/></span> Maipu, Mendoza, Argentina</p>
             </div>
+            <div className='fondo'>
             <div className="formulario">
+                
                 <form className='formularioUsuario' onSubmit={handleSubmit}>
                     
-                    <div className='inputContainer'>
+                    <div className='inputContainer' >
                         <input id="name" type="text" name="name" placeholder='Nombre' required/>
                     </div>
                     <div className='inputContainer'>
@@ -35,12 +40,13 @@ const Contact = () => {
                         <input id="subject" type="text" name="subject" placeholder='Asunto' required/>
                     </div>
                     <div className='inputContainer'>
-                        <input id="message" type="text" name="message" placeholder='Mensaje' required/>
+                        <textarea id="message" type="text" name="message" placeholder='Mensaje' required/>
                     </div>
-                    <button type="submit">Enviar</button>
+                    <button type="submit">ENVIAR</button>
                 </form>
+                </div>
             </div>
-        </div>
+        </motion.div>
     );
   }
   

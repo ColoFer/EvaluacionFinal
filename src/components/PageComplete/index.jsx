@@ -2,9 +2,11 @@ import {
     Home,
     Services,
     Projects,
-    AboutMe,Contact, Skills, Footer } from "../../components";
+    AboutMe,Contact, Skills, Footer} from "../../components";
+
 
 const PageComplete =()=>{
+
     return(
         <div>
             <Home/>

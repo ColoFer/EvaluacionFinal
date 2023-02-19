@@ -3,9 +3,10 @@ header{
     justify-content: space-between;
     align-items: center;
     height: 60px;
-    margin: 35px;
+    margin: 50px;
+    position: relative;
 }
-.titulo {
+header .titulo {
     font-weight: bold;
     font-size: 50px;
     background: #22EDFB;
@@ -34,6 +35,7 @@ nav{
 }
 
 @media (max-width: 768px){
+    
     .navItem{
         position: absolute;
         margin: 0;
@@ -50,10 +52,6 @@ nav{
     .navItem.open{
         transform: translateX(0) !important;
     }
-    nav{
-        display: flex;
-        justify-content: flex-start;
-    }
     .navToggle svg{
         color: var(--colorLetra);
     }
@@ -62,11 +60,17 @@ nav{
         display: flex !important;
         flex-direction: column;
         transform-origin: 5px 0;
-        transition: all 0.5s linear;
+        
     }
     .titulo {
         display: flex;
-        justify-content: space-between;
+        flex-direction: column;
         align-items: center;
+    }
+}
+@media (max-width: 1279px){
+    .navItem{
+        display: flex;
+        justify-content: flex-end;
     }
 }

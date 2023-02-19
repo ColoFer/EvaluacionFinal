@@ -1,5 +1,5 @@
 :root{
-    --tipografia100: 'Montserrat', sans-serif;
+    --tipografia:  'Montserrat', sans-serif;
     --colorGradient: #22EDFB;
     --colorBase: #14104B;
     --colorBoton: #FF4D71;
@@ -13,15 +13,6 @@ body{
 h4{
     color: var(--colorLetra);
 }
-/*h2{
-    color: var(--colorLetra);
-}*/
-h1{
-    color: var(--colorTitulo);
-}
 h3{
     color: var(--colorTitulo);
-}
-i{
-    color: var(--colorLetra);  
 }
