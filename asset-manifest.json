@@ -1,20 +1,22 @@
 {
   "files": {
-    "main.css": "/EvaluacionFinal/static/css/main.dd15d428.css",
-    "main.js": "/EvaluacionFinal/static/js/main.5fea2b2e.js",
+    "main.css": "/EvaluacionFinal/static/css/main.1349d2fd.css",
+    "main.js": "/EvaluacionFinal/static/js/main.d8b28061.js",
     "static/media/proyecto_3.png": "/EvaluacionFinal/static/media/proyecto_3.867ed6563fcf056aa14f.png",
+    "static/media/perfil_1.jpg": "/EvaluacionFinal/static/media/perfil_1.3ff9fb4747b59a84b662.jpg",
     "static/media/bootstrap-icons.woff?": "/EvaluacionFinal/static/media/bootstrap-icons.6959d0d983ee318f8880.woff",
+    "static/media/perfil_3.jpg": "/EvaluacionFinal/static/media/perfil_3.88bdfe4e7a6e17c93742.jpg",
     "static/media/bootstrap-icons.woff2?": "/EvaluacionFinal/static/media/bootstrap-icons.b2e5aab643c6f0fd2da6.woff2",
+    "static/media/perfil_2.jpg": "/EvaluacionFinal/static/media/perfil_2.43a5077432a617eaa57d.jpg",
     "static/media/skills.png": "/EvaluacionFinal/static/media/skills.89e8ee53bcaf43408bc1.png",
-    "static/media/pajaro.jpg": "/EvaluacionFinal/static/media/pajaro.fb36f17e0acfcb31320e.jpg",
     "static/media/proyecto_2.png": "/EvaluacionFinal/static/media/proyecto_2.5ba5a59bc9c51e2c7ce1.png",
     "static/media/proyecto_1.png": "/EvaluacionFinal/static/media/proyecto_1.9cd19afe5dad536c62b9.png",
     "index.html": "/EvaluacionFinal/index.html",
-    "main.dd15d428.css.map": "/EvaluacionFinal/static/css/main.dd15d428.css.map",
-    "main.5fea2b2e.js.map": "/EvaluacionFinal/static/js/main.5fea2b2e.js.map"
+    "main.1349d2fd.css.map": "/EvaluacionFinal/static/css/main.1349d2fd.css.map",
+    "main.d8b28061.js.map": "/EvaluacionFinal/static/js/main.d8b28061.js.map"
   },
   "entrypoints": [
-    "static/css/main.dd15d428.css",
-    "static/js/main.5fea2b2e.js"
+    "static/css/main.1349d2fd.css",
+    "static/js/main.d8b28061.js"
   ]
 }
