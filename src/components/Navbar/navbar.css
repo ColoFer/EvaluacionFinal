@@ -27,50 +27,56 @@ nav{
     text-decoration: none;
     cursor: pointer;
     color: var(--colorLetra);
-    position: relative;
 }
-
 .navToggle{
     display: none;
 }
-
 @media (max-width: 768px){
-    
-    .navItem{
+    header .navItem{
+        background: var(--colorBase);;
         position: absolute;
         margin: 0;
-        top: 100px;
+        top: 60px;
         left:0;
-        background-color: var(--colorBase);
         display: flex;
         flex-direction: column;
-        width: 100%;
-        height: -webkit-fill-available; /*Me cubre todo el largo de la pagina*/
-        transform: translateX(-100%);
+        width: 110%;
+    /*Me cubre todo el largo de la pagina*/
+        transform: translateX(-200%);
         transition: 0.3s ease all;
+        z-index: 1;
     }
-    .navItem.open{
+    header .navItem.open{
         transform: translateX(0) !important;
+        
     }
-    .navToggle svg{
+    header .navToggle svg{
         color: var(--colorLetra);
     }
-    .navToggle{   
+    header .navToggle{   
         font-size: 30px;   
         display: flex !important;
         flex-direction: column;
         transform-origin: 5px 0;
         
     }
-    .titulo {
+    header .titulo {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
 }
 @media (max-width: 1279px){
+    .navItem > a {
+        font-size: 23px;
+        margin: 5px;
+        text-decoration: none;
+        cursor: pointer;
+        color: var(--colorLetra);
+    }
     .navItem{
         display: flex;
         justify-content: flex-end;
+
     }
 }

@@ -1,8 +1,8 @@
 import React from "react";
-import perfil from "../../assets/pajaro.jpg";
+import perfil1 from "../../assets/perfil_1.jpg";
 import "./Home.css";
 import { NavLink } from "react-router-dom";
-import {AiOutlineInstagram, AiFillGithub,AiOutlineLinkedin, AiOutlineWhatsApp, AiOutlineMail} from "react-icons/ai";
+import {AiOutlineInstagram, AiFillGithub, AiOutlineWhatsApp} from "react-icons/ai";
 import  {BsToggleOff} from "react-icons/bs";
 import {motion} from "framer-motion";
 const Home = () => {
@@ -25,15 +25,13 @@ const Home = () => {
           </div>
         </div>
         <div>
-          <img src={perfil} alt=""/>
+          <img src={perfil1} alt=""/>
         </div>
         <div className="iconos">
-          <span><AiOutlineMail/></span>
           <p>Sigueme en:   </p>
-                <AiFillGithub/>
-                <AiOutlineInstagram/>
-                <AiOutlineLinkedin/>
-                <AiOutlineWhatsApp/>
+                <a href="https://github.com/ColoFer"><AiFillGithub/></a>
+                <a href="https://www.instagram.com/colofernandez.20/?igshid=YmMyMTA2M2Y%3D"><AiOutlineInstagram/></a>
+                <a href="https://api.whatsapp.com/send/?phone=542616673537"><AiOutlineWhatsApp/></a>
         </div>
       </motion.div>
     );

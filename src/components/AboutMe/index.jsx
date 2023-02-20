@@ -3,7 +3,8 @@ import "./aboutme.css";
 import { NavLink } from "react-router-dom";
 import {AiOutlineLine} from "react-icons/ai";
 import {BiRadioCircleMarked} from "react-icons/bi";
-import pajaro from "../../assets/pajaro.jpg";
+import perfil2 from "../../assets/perfil_2.jpg";
+import perfil3 from "../../assets/perfil_3.jpg";
 import {motion} from "framer-motion";
 
 const AboutMe = () => {
@@ -25,8 +26,8 @@ const AboutMe = () => {
             </button>
           </div>
           <div className="imagenes">
-            <img className="img1" src={pajaro} alt=""/>
-            <img className="img2" src={pajaro} alt=""/>
+            <img className="img1" src={perfil2} alt=""/>
+            <img className="img2" src={perfil3} alt=""/>
           </div>
       </motion.div>
     

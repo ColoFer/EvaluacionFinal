@@ -67,13 +67,11 @@
 }
 .home img{
     position: relative;
-    width: 250px;
-    left: 250px;
+    width: 300px;
+    left: 200px;
 }
-.home .iconos span{
-    position: relative;
-    right: 20px;
-    color: var(--colorBoton);
+.home .iconos a{
+    color: var(--colorLetra);
 }
 .home .iconos{
     display: flex;

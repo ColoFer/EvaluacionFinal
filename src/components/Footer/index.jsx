@@ -14,10 +14,9 @@ const Footer = () => {
                 </NavLink>
             </div>
             <div className="iconos">
-                <AiFillGithub/>
-                <AiOutlineInstagram/>
-                <AiOutlineLinkedin/>
-                <AiOutlineWhatsApp/>
+                <a href="https://github.com/ColoFer"><AiFillGithub/></a>
+                <a href="https://www.instagram.com/colofernandez.20/?igshid=YmMyMTA2M2Y%3D"><AiOutlineInstagram/></a>
+                <a href="https://api.whatsapp.com/send/?phone=542616673537"><AiOutlineWhatsApp/></a>
             </div>
             <nav className="menu">
                 <NavLink to="/home">

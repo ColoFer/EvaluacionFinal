@@ -8,8 +8,9 @@
 }
 .skills .habilidad{
     position: relative;
-    top: -50px;
-    left: -60px;
+    top: 15px;
+    left: -40px;
+    width: 40%;
 }
 .skills .habilidad span{
     color:  var(--colorBoton);
@@ -24,7 +25,7 @@
 .skills .habilidad p{
     position: relative;
     top: -50px;
-    left: -270px;
+    left: -150px;
 }
 .skills .habilidad h2{
     color: var(--colorTitulo);
@@ -64,6 +65,6 @@
     }
 
     .skills .habilidad p {
-        left: -200px;
+        left: -100px;
     }
 }
