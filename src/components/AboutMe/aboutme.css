@@ -56,6 +56,7 @@
 .aboutme .imagenes{
     position: relative;
     left: 0;
+    height: 700px;
 }
 .aboutme .imagenes .img1{
     position: relative;
