@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import "./footer.css"
-import {AiOutlineInstagram, AiFillGithub,AiOutlineLinkedin, AiOutlineWhatsApp} from "react-icons/ai"
+import {AiOutlineInstagram, AiFillGithub, AiOutlineWhatsApp} from "react-icons/ai"
 
 
 const Footer = () => {
