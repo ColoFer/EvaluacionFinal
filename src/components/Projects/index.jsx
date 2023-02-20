@@ -18,7 +18,7 @@ const Projects = () => {
           <img src={proyecto3} alt=""/>
         </div>
         <button>
-          <a href="http://colofer.github.io">Ver Proyectos</a>
+          <a href="https://github.com/ColoFer">Ver Proyectos</a>
         </button>
       </motion.div>
     );
